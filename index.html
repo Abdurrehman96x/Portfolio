@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(9, 9, 55);
+            background-image: url(background3.jpg);
+            background-size:cover;
+            background-repeat:round;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around ;
+            align-content:center;
+            height: 80px;
+            background-color: rgb(9, 9, 77);
+            background-image: url(nav-bg.png);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 28px; 
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(249, 0, 0);
+            font-size: 1.01rem;
+        }
+        main hr{
+            border: 0;
+            background: rgb(249, 0, 0);
+            height: 0.18rem;
+            margin: 40px 70px;
+            margin-left: 6.3%;
+
+
+        }
+        footer{
+            background-color: rgb(10 10 63);
+            height: 300px;
+        }
+        .left{
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+        .firstSection div{
+            width: 38%;
+        }
+        .leftSection{
+            font-size: 3rem;
+            width: 100%;
+            margin-top: 13%;
+
+        }
+        .leftSection button{
+            padding: 12px;
+            color: white;
+            font-size: 16px;
+            background-color: rgb(255, 255, 255);
+            border: 3px solid white;
+            border-radius: 7px;
+            background: rgb(17 17 99);
+
+        }
+        .leftSection button a{
+            color: white;
+            text-decoration: none;
+        }
+        .rightSection{
+            background-color: none;
+        }
+        .rightSection img{
+            width: 90%;
+        }
+        .purple{
+            color: rgb(249, 0, 0);
+        }
+        .subSection span{
+            color: rgb(222, 63, 63);
+            margin-left: 12%;
+            font-size: 1.1rem;
+        }
+        
+        #element{
+            color: rgb(249, 0, 0);
+        }
+        .secondSection{
+            display: flex;
+            width: 80%;
+            height: 50px;
+           
+        }
+        .secondSection h1{
+            margin-top: 2px;
+            font-size: 1.7rem;
+            margin-left: 15%;
+            height: 30px;
+            margin-bottom: 5px;
+            
+        }
+        .secondSection .box{
+            background: white;
+            width: 500px;
+            height: 2px;
+            margin-top: 130px;
+        }
+        .box{
+            background: white;
+            width: 76%;
+            height: 2px;
+            margin: auto;
+            display: flex;
+            margin-top: 30px;
+
+        }
+        .subSection2{
+            height: 650px;
+        }
+        .verticle{
+            background: white;
+            width: 2px;
+            height: 93px;
+            margin: 0 100px;
+            
+        }
+        .image-top{
+            
+            height: 70px;
+            width: 60px;
+            padding: 20px;
+        }
+        .verticle-title{
+            font-weight: 600;
+            font-size: 20px;
+            margin-top:20px;
+        }
+        .verticle-desc{
+            font-size: 0.9rem;
+            width: 90px;
+        }
+        
+        .footer{
+            display: flex;
+            padding: 23px 180px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer div{
+            width: 223px;
+            text-decoration: none;
+        }
+        .footer ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .footer ul li a:hover{
+            color: rgb(249, 0, 0);
+            font-size: 1.01rem;
+        }
+        .social img{
+            height: 60px;
+            width: 60px;
+            padding: 20px;
+            margin-left: 50px;      
+        }
+        .footer-rights{
+            color: rgb(151, 151, 151);
+            padding: 12px;
+            text-align: center;
+            margin-bottom: auto;
+            background-color: rgb(10 10 63);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abdur's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="https://abdurrehman96x.github.io/project/">Projects</a></li>
+                    <li><a href="https://www.instagram.com/abdur.rehman96x_/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,<br> My name is<br> <span class="purple">Abdur Rehman Malik</span>
+                 and I am passionate <br>
+                 <span id="element"></span>
+                 <br>
+                 <div>
+                    <button class="btn"><a href="">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/Abdurrehman96x">Visit GitHub</a></button>
+                 </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="abdur.png" alt="">
+            </div>
+        </section>
+       
+        <hr>
+        <section class="subSection">
+            <span>What I have done so far</span>
+        </section>
+        <section class="secondSection">
+            <h1>Work Experience</h1>
+        </section>
+        <div class="subSection2">
+           <div class="box">
+            <div class="verticle">
+                <img src="html.png" alt="" class="image-top">
+                <div class="verticle-title">
+                    HTML
+                </div>
+                <div class="verticle-desc">
+                    Lorem ipsum, dolor sit amet consectetur 
+                </div>
+
+            </div>
+            <div class="verticle">
+                <img src="css.png" alt="" class="image-top">
+                <div class="verticle-title">
+                    CSS
+                </div>
+                <div class="verticle-desc">
+                    Lorem ipsum, dolor sit amet consectetur 
+                </div>
+
+            </div>
+            <div class="verticle">
+                <img src="tailwind.png" alt="" class="image-top">
+                <div class="verticle-title">
+                    TAILWIND
+                </div>
+                <div class="verticle-desc">
+                    Lorem ipsum, dolor sit amet consectetur 
+                </div>
+
+            </div>
+            <div class="verticle">
+                <img src="js.png" alt="" class="image-top">
+                <div class="verticle-title">
+                    JAVA SCRIPT
+                </div>
+                <div class="verticle-desc">
+                    Lorem ipsum, dolor sit amet consectetur 
+                </div>
+            
+
+            </div>
+
+            </div>
+           </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3> Abdur's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <h3>Projects</h3>
+                    <li><a href="https://abdurrehman96x.github.io/project/">Responsive Calculator</a></li>
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <h3>Social</h3>
+                    <li><a href="https://www.instagram.com/abdur.rehman96x_/">Insta</a></li>
+                    <li><a href="https://www.facebook.com/abdurrehman.malik.14224">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/abdur-rehman-malik-2a2b62239/">Linkedin</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCI42mrzSEuqh9uFiHda95Ag">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--<div class="social">
+            <img src="insta.png" alt="" class="insta">
+            <img src="fb.png" alt="" class="facebook">
+            <img src="linkedin.png" alt="" class="Linkedin">
+            <img src="github.png" alt="" class="github">
+            <img src="youtube.png" alt="" class="youtube">
+            
+        </div>  -->
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Graphic Designer', 'Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+  <div class="footer-rights">
+    Copyright &#169; All rights are reserved
+  </div>
+</body>
+</html>
